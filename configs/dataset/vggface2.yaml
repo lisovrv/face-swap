@@ -1,0 +1,3 @@
+dataset_path: /home/aalanov/rvlisov/datasets/VggFace2-crop/
+same_person: 0.2
+same_identity: True

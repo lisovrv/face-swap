@@ -1,0 +1,10 @@
+backbone: 'unet'
+num_blocks: 2
+
+pretrained: False
+gen_path: exp_results/models/
+discr_path: exp_results/models/
+
+
+
+

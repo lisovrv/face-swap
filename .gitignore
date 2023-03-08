@@ -1,0 +1,8 @@
+pretrained_models/*
+jupyter_notebooks/*
+.ipynb_checkpoints/
+outputs/
+faceswap/AdaptiveWingLoss/*
+faceswap/apex/*
+example_images/
+*__pycache__*

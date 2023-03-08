@@ -1,0 +1,37 @@
+defaults:
+  - dataset: vggface2
+  - models: gen_discr
+  - optimizers: adam
+  
+  
+exp_name: test_0203
+
+
+batch_size: 16
+num_workers: 8
+num_epochs: 10
+use_wandb: True
+
+optim_level: 'O2'
+
+
+weight_adv: 1
+weight_attr: 10
+weight_id: 70
+weight_rec: 10
+weight_eyes: 1200
+
+scheduler: False
+scheduler_step: 5000
+scheduler_gamma: 0.2
+
+diff_eq_same: False
+eye_detector_loss: False
+discr_force: False
+
+
+loss_log_step: 10
+wandb_img_step: 100
+
+model_save_step: 5000
+model_save_dir: exp_results/

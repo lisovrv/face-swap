@@ -1,0 +1,4 @@
+name: adam
+
+gen_lr: 4e-4
+discr_lr: 4e-4
